@@ -2,7 +2,7 @@ import google.generativeai as genai
 import json
 import os
 
-genai.configure(api_key=os.environ.get("AIzaSyAxQizhCO70LTvr44m6Z3cD-d2GVDNo8QM"))
+genai.configure(api_key=os.environ.get("YOUR API KEY(GEMINI USED)"))
 
 def analyze_resume(resume_text, user_goal):
     prompt = f"""You are a senior software engineer and hiring manager.
